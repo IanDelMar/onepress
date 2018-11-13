@@ -28,7 +28,7 @@ env:
   global:
     - COMPOSER_NO_INTERACTION=1
   matrix:
-    - WP_VERSION=latest
+    - WP_VERSION=master
     - WP_VERSION=4.9
 
 # Use this to prepare your build for testing.
